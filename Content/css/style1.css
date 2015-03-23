@@ -1,0 +1,474 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Calibri;
+    background-color: #F1F1F1;
+}
+
+#thelogo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+    #thelogo img {
+        border: 0px;
+    }
+
+#usernev {
+    height: 40px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+#forgotpwd {
+    float: right;
+    margin: 8px;
+    cursor: pointer;
+}
+
+#forgotpwddialog {
+    display: none;
+    position: fixed;
+    top: 45px;
+    right: 5px;
+    width: 395px;
+    padding: 5px;
+    background-color: #cecece;
+    border: 1px solid black;
+}
+
+    #forgotpwddialog a {
+        margin: 0px 10px 0px 10px;
+        cursor: pointer;
+    }
+
+#forgotpwddialogques {
+    display: none;
+}
+
+#emlholder, #pwdholder {
+    float: right;
+    height: 24px;
+    width: 150px;
+    margin: 8px 8px 8px 8px;
+    background-color: white;
+    border-radius: 1px;
+}
+
+#welcomestr {
+    float: right;
+    height: 24px;
+    padding: 0px 5px 0px 5px;
+    margin: 8px 8px 8px 8px;
+    background-color: #8e8585;
+    border-radius: 1px;
+    color: white;
+    display: none;
+}
+
+#loginandoutbtn {
+    float: right;
+    height: 24px;
+    margin: 8px 8px 8px 8px;
+    padding: 0px 5px 0px 5px;
+    background-color: #8e8585;
+    border-radius: 1px;
+    color: white;
+    cursor: pointer;
+}
+
+#signupandsettingsholder {
+    float: right;
+    height: 24px;
+    margin: 8px 16px 8px 8px;
+    padding: 0px 5px 0px 5px;
+    background-color: #8e8585;
+    border-radius: 1px;
+}
+
+    #signupandsettingsholder a {
+        color: white;
+    }
+
+#settinglink {
+    display: none;
+}
+
+#useremail {
+    margin: 2px;
+    border: none;
+}
+
+#userpassword {
+    margin: 1px;
+    border: none;
+}
+
+#menuitems {
+    float: right;
+    width: 400px;
+    background-color: #E1E1E1;
+    margin: 0px 7px 0px 7px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+    #menuitems div {
+        text-align: center;
+        color: white;
+        padding-top: 9px;
+        height: 30px;
+        width: 400px;
+        background-color: #8e8585;
+        cursor: pointer;
+    }
+
+        #menuitems div a {
+            color: white;
+        }
+
+ul.catmain, ul.catsub {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    float: right;
+    display: none;
+}
+
+    ul.catmain li, ul.catsub li {
+        margin-top: 2px;
+        padding-top: 5px;
+        height: 25px;
+        background-color: #BEBEBE;
+        cursor: pointer;
+    }
+
+        ul.catmain li:hover, ul.catsub li:hover {
+            background-color: #D8D8D8;
+        }
+
+        ul.catsub li a {
+            text-decoration: none;
+            color: black;
+            display: block;
+            width: 200px;
+        }
+
+ul.catsub {
+    display: none;
+}
+
+#minicart {
+    background-color: #8e8585;
+    padding: 5px 5px 0px 5px;
+    height: 35px;
+    margin: 0px 8px 0px 8px;
+    float: right;
+    cursor: pointer;
+    color: white;
+}
+
+#logoholder {
+    height: 171px;
+}
+
+#contentholder {
+    display: table;
+    width: 1016px;
+    background-color: #E1E1E1;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 8px 0px 0px 8px;
+}
+/*start user rate and review*/
+#rateandreviewholder, #overallaverageholder, #ratingpagenumbers {
+    margin: 0px 8px 8px 0px;
+    background-color: #BEBEBE;
+    padding: 8px 8px 8px 8px;
+}
+
+#averageratingstarholder {
+    overflow: hidden;
+    width: 500px;
+}
+
+#overallaverageholder table th {
+    text-align: left;
+}
+
+.allunratedstars {
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+#submitratebtn {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 150px;
+    margin-top: 8px;
+}
+
+.userratingsholder {
+    margin: 0px 8px 8px 0px;
+    background-color: #BEBEBE;
+    padding: 8px 8px 8px 8px;
+    width: 500px;
+    cursor: pointer;
+}
+
+    .userratingsholder div {
+        float: right;
+    }
+
+#ratingpagenumbers a {
+    padding-right: 20px;
+    color: black;
+}
+/*end user rate and review*/
+#checkoutbtn {
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 150px;
+    padding-top: 5px;
+    height: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#cartitemsholder {
+    background-color: #BEBEBE;
+    margin: 0px 8px 8px 0px;
+}
+    #cartitemsholder label {
+        background-color: #ff8c8c;
+        cursor: pointer;
+        border-radius: 2px;
+    }
+    #cartitemsholder big {
+        background-color: #808080;
+        color: white;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    #cartitemsholder th {
+        text-align: left;
+    }
+
+#cartitemtable {
+    width: 400px
+}
+
+    #cartitemtable td {
+        text-align: right;
+    }
+
+#carttotalrow td {
+    border-top: 1px solid black;
+    border-bottom: 3px double black;
+}
+
+.foodorbeverageholder {
+    background-color: #BEBEBE;
+    width: 200px;
+    height: 294px;
+    float: left;
+    margin: 0px 2px 8px 0px;
+}
+
+    .foodorbeverageholder div {
+        background-color: black;
+        color: white;
+        padding-top: 5px;
+        height: 25px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+#sortingpanel {
+    text-align: center;
+    background-color: #BEBEBE;
+    margin: 0px 8px 8px 0px;
+}
+
+#tourorderform, #tourorderdetailholder {
+    margin: 0px 8px 8px 0px;
+    background-color: #BEBEBE;
+    float: left;
+}
+
+#tourordertable img {
+    display: none;
+}
+
+    #tourorderform table {
+        width: 400px;
+    }
+
+    #tourorderdetailholder table {
+        width: 600px;
+    }
+
+        #tourorderdetailholder table th, #tourorderdetailholder table td {
+            border-bottom: 1px solid black;
+        }
+
+    #tourorderdetailholder div, #tourorderform div {
+        background-color: #808080;
+    }
+
+        #tourorderdetailholder table th {
+            text-align: left;
+        }
+
+.torderformbtns {
+    background-color: #808080;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+}
+
+.ordertable {
+    background-color: #BEBEBE;
+    margin: 0px 8px 8px 0px;
+    width: 1008px;
+}
+
+.datarow:hover {
+    cursor: pointer;
+    background-color: #E1E1E1;
+}
+
+    .ordertable th, .ordertable td {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        text-align: right;
+    }
+
+.orderitemtableholder {
+    display: none;
+    position: fixed;
+    border: 1px solid black;
+    border-radius: 2px;
+    top: 50px;
+    left: 50px;
+    padding: 8px;
+    width: 350px;
+    max-height: calc(100% - 70px);
+    overflow: auto;
+    background-color: #BEBEBE;
+}
+
+    .orderitemtableholder div:hover {
+        background-color: #E1E1E1;
+        cursor: pointer;
+    }
+
+.pricecols {
+    text-align: right;
+    border-left: 1px solid black;
+}
+
+#orderhistorypopup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: black;
+    margin-left: -60px;
+    padding: 8px 0px 0px 8px;
+    display: none;
+}
+
+    #orderhistorypopup div {
+        margin: 0px 8px 8px 0px;
+        background-color: #BEBEBE;
+        width: 104px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+#signuptable {
+    background-color: #BEBEBE;
+    margin: 0px 8px 8px 0px;
+    float: left;
+}
+
+    #signuptable th {
+        width: 300px;
+        background-color: #808080;
+    }
+
+    #signuptable img {
+        display: none;
+    }
+
+    #signuptable a {
+        text-align: center;
+        display: block;
+        width: 150px;
+        height: 30px;
+        padding-top: 10px;
+        color: white;
+        background-color: black;
+        cursor: pointer;
+    }
+
+.settinglinks {
+    background-color: #BEBEBE;
+    margin: 0px 8px 8px 0px;
+    float: left;
+    width: 200px;
+    cursor: pointer;
+}
+
+.indexcontent {
+    float: left;
+    height: 200px;
+    width: 500px;
+    margin: 0px 8px 8px 0px;
+    background-color: #BEBEBE;
+}
+
+    .indexcontent img {
+        float: left;
+    }
+
+#footer {
+    margin: 10px auto 10px auto;
+    width: 1024px;
+    height: 200px;
+    padding-top: 20px;
+    background-color: #E1E1E1;
+}
+
+    #footer table {
+        width: 720px;
+        margin: 0 auto;
+    }
+
+        #footer table a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #footer table th {
+            text-align: left;
+            width: 180px;
+            border-bottom: 1px solid black;
+        }
+
+#contactus {
+    margin: 20px auto 5px auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 666px
+}

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+    <servlet> 
+        <servlet-name>accountsetting</servlet-name> 
+        <jsp-file>/accountsetting.jsp</jsp-file> 
+    </servlet> 
+    <servlet-mapping> 
+        <servlet-name>accountsetting</servlet-name> 
+        <url-pattern>/user/myaccount</url-pattern> 
+    </servlet-mapping>
+
+
+    <servlet> 
+        <servlet-name>signup</servlet-name> 
+        <jsp-file>/signup.jsp</jsp-file> 
+    </servlet> 
+    <servlet-mapping> 
+        <servlet-name>signup</servlet-name> 
+        <url-pattern>/guest/signup</url-pattern> 
+    </servlet-mapping>
+
+
+    <servlet>
+      <servlet-name>shorttours</servlet-name>
+      <jsp-file>/shorttours.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+      <servlet-name>shorttours</servlet-name>
+      <url-pattern>/tourcategories/shorttours</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+      <servlet-name>longtours</servlet-name>
+      <jsp-file>/longtours.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+      <servlet-name>longtours</servlet-name>
+      <url-pattern>/tourcategories/longtours</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+      <servlet-name>kidsclub</servlet-name>
+      <jsp-file>/kidsclub.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+      <servlet-name>kidsclub</servlet-name>
+      <url-pattern>/tourcategories/kidsclub</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+      <servlet-name>citysightseeingtours</servlet-name>
+      <jsp-file>/citysightseeingtours.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+      <servlet-name>citysightseeingtours</servlet-name>
+      <url-pattern>/tourcategories/citysightseeingtours</url-pattern>
+    </servlet-mapping> 
+
+
+    <servlet>
+      <servlet-name>opentop</servlet-name>
+      <jsp-file>/opentop.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+      <servlet-name>opentop</servlet-name>
+      <url-pattern>/buscategories/opentop</url-pattern>
+    </servlet-mapping> 
+
+
+    <servlet>
+      <servlet-name>wideview</servlet-name>
+      <jsp-file>/wideview.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+      <servlet-name>wideview</servlet-name>
+      <url-pattern>/buscategories/wideview</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+      <servlet-name>comfortable</servlet-name>
+      <jsp-file>/comfortable.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+      <servlet-name>comfortable</servlet-name>
+      <url-pattern>/buscategories/comfortable</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+      <servlet-name>food</servlet-name>
+      <jsp-file>/food.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+      <servlet-name>food</servlet-name>
+      <url-pattern>/touritems/food</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+      <servlet-name>beverage</servlet-name>
+      <jsp-file>/beverage.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+      <servlet-name>beverage</servlet-name>
+      <url-pattern>/touritems/beverage</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>cart</servlet-name>
+      <jsp-file>/cart.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+      <servlet-name>cart</servlet-name>
+      <url-pattern>/user/cart</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+      <servlet-name>success</servlet-name>
+      <jsp-file>/success.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+      <servlet-name>success</servlet-name>
+      <url-pattern>/payment/successfull</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+      <servlet-name>orderhistory</servlet-name>
+      <jsp-file>/orderhistory.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+      <servlet-name>orderhistory</servlet-name>
+      <url-pattern>/user/orderhistory</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>userrating</servlet-name>
+      <jsp-file>/userrating.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+      <servlet-name>userrating</servlet-name>
+      <url-pattern>/alluser/userratings</url-pattern>
+    </servlet-mapping>
+  
+</web-app>
